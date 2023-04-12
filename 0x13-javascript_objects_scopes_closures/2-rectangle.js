@@ -1,13 +1,14 @@
-#!/user/bin/node
+#!/usr/bin/node
 
 class Rectangle {
-  contstructor(w, h) {
+  constructor(w, h) {
     if (w <= 0 || h <= 0) {
-      return ()
+      // Create an empty object if width or height is 0 or negative
+      return {};
     }
     this.width = w;
     this.height = h;
-   }
- }
+  }
+}
 
 module.exports = Rectangle;

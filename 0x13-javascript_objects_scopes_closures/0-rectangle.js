@@ -1,5 +1,6 @@
 #!/usr/bin/node
-
-class Rectangle{
+class Rectangle {
+  // Empty class definition
 }
-const myRectangle = new Rectangle();
+module.exports = Rectangle;
+

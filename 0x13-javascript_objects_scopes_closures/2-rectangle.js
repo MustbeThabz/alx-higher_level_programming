@@ -3,11 +3,9 @@
 class Rectangle {
   constructor(w, h) {
     if (w <= 0 || h <= 0) {
-      // Create an empty object if width or height is 0 or negative
-      return {};
+      this.width = w;
+      this.height = h;
     }
-    this.width = w;
-    this.height = h;
   }
 }
 

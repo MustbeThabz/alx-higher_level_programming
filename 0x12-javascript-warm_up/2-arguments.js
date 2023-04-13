@@ -1,6 +1,7 @@
 #!/usr/bin/node
 
-const numArgs = process.argv.length - 2;
+const args = process.argv.slice(2);
+const numArgs = args.length;
 
 switch (numArgs) {
   case 0:
@@ -12,5 +13,3 @@ switch (numArgs) {
   default:
     console.log('Arguments found');
 }
-
-

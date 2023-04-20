@@ -1,8 +1,9 @@
 !#/bin/usr/node
 
-function add(a, b){
-  const sum = a + b;
-  console.log(sum);
+function add(a, b) {
+  const result = a + b;
+  console.log(result);
 }
 
-add (a, b);
+// Example usage:
+add(2, 3); // Output: 5
